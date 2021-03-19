@@ -1,0 +1,86 @@
+url=www.zhengyuduan.com
+
+// ********************************************************************************
+// Sign/Log functions
+// ********************************************************************************
+
+// Sign up API
+endpoint: (TODO duan)
+method: POST
+dataType: json
+data sample:
+obj = {
+    "first_name": "qin",
+    "last_name": "wang",
+    "password": "123",
+    "email": "123@gmail.com",
+	"driver_license_number": "123123123",
+	"driver_license_state": "CA",
+	"date_of_birth": "2020-04-30",
+	"drive_license_expire_date": "2020-04-30",
+	"card_number": "123123123",
+	"card_expire_date": "2020-04-30",
+	"card_cvi": "123",
+	"card_zipcode": "95112",
+	"address_street": "101 E San Fernando",
+	"address_state": "CA",
+	"address_city": "San Jose",
+	"address_zipcode": "95112",
+	"billing_street": "101 E San Fernando",
+	"billing_state": "CA",
+	"billing_city": "San Jose",
+	"billing_zipcode": "95112",
+}
+respond data:
+obj = {
+	"status": "success" // "success" represent success and "fail" represent failure.
+}
+
+
+// Log in API
+endpoint: (url/backend/database/users/login.php)
+method: GET
+dataType: json
+data sample:
+obj = {
+	"email": "123@gmail.com",
+	"password": "123"
+}
+respond data:
+obj = {
+	"status": "success" // "success" represent success and "fail" represent failure.
+	"role": "user" // "user" represent normal user and "manager" represent manager.
+}
+Sample output:
+//SUCCESS LOGIN WITH USER ACCOUNT
+{
+    "status": "success",
+    "role": "user"
+}
+//SUCCESS LOGIN WITH MANAGER ACCOUNT
+{
+    "status": "success",
+    "role": "manager"
+}
+//WRONG PASSWORD BUT EXIST USER ACCOUNT
+{
+    "status": "fail",
+    "role": "user",
+    "message": "Wrong pass."
+}
+//NOT EXISTING ACCOUNT
+{
+    "status": "fail",
+    "role": "none",
+    "message": "Email not exist."
+}
+//WRONG PASSWORD BUT EXIST MANAGER ACCOUNT
+{
+    "status": "fail",
+    "role": "manager",
+    "message": "Wrong pass."
+}
+
+// ********************************************************************************
+// Vehicle functions
+// ********************************************************************************
