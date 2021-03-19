@@ -5,22 +5,9 @@
 Mario's Friends<br>
 <br>
 
-**Project Board:**
-<br>
-https://github.com/gopinathsjsu/sp20-cmpe-202-sec-03-team-project-mario-s-friends/tree/master/Project%20Board
 
-**Project Journal :**
-<br>
-https://github.com/gopinathsjsu/sp20-cmpe-202-sec-03-team-project-mario-s-friends/tree/master/Project%20Journal
 
-**Diagrams:**
-<br>
-Architecture Diagram:
-![image](https://github.com/gopinathsjsu/sp20-cmpe-202-sec-03-team-project-mario-s-friends/blob/master/architecture.jpeg)<br>
 
-<br>
-UI:<br>
-https://github.com/gopinathsjsu/sp20-cmpe-202-sec-03-team-project-mario-s-friends/tree/master/UI
 <br>
 <br>
 
