@@ -1,23 +1,10 @@
-# sp20-cmpe-202-sec-03-team-project-mario-s-friends
-#Team Member:
-1. Zhengyu Duan 014152255
-2. Chen Zhang 014536496
-3. Qin Wang 013986752
-4. Yakun Feng 014501019
+# Mariocar-a-Car-Rental-Full-Stack-Website
 <br>
-
-
-
-
-
 **Team Name:**
 <br>
 Mario's Friends<br>
 <br>
-**Summary of areas of Contributions (For Each Team Member):**
-<br>
-![image](https://github.com/gopinathsjsu/sp20-cmpe-202-sec-03-team-project-mario-s-friends/blob/master/Project%20Board/contribution.png)<br>
-<br>
+
 **Project Board:**
 <br>
 https://github.com/gopinathsjsu/sp20-cmpe-202-sec-03-team-project-mario-s-friends/tree/master/Project%20Board
